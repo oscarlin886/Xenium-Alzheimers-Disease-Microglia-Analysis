@@ -1,0 +1,53 @@
+# Large / raw data
+*.h5ad
+*.h5
+*.loom
+*.zarr/
+*.mtx
+*.mtx.gz
+*.parquet
+*.feather
+
+# Xenium / image / raw output folders
+cell_feature_matrix/
+morphology_focus/
+morphology_mip/
+analysis/
+outs/
+xeniumranger_outs/
+baysor_outs/
+segmentation/
+transcripts.csv.gz
+cells.csv.gz
+cell_boundaries.csv.gz
+nucleus_boundaries.csv.gz
+
+# Result exports / figures unless intentionally added
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.pdf
+*.svg
+*.xlsx
+*.xls
+*.csv
+
+# Notebook / Python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# R junk
+.Rhistory
+.RData
+.Rproj.user/
+
+# Logs/temp
+*.log
+*.out
+*.err
+.DS_Store
+tmp/
+temp/
